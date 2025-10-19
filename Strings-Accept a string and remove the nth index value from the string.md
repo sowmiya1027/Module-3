@@ -14,13 +14,13 @@ To write a Python program that accepts a string and removes the character at a s
 8. Print the final result.
 
 ## 💻 Program
-
+```
 n=int(input())
 def remove(a):
     for i in range(0,len(a)):
         if(i!=n):
             print(a[i],end='')
-
+```
 ## Output
 ![WhatsApp Image 2025-05-13 at 21 50 47_8d65365a](https://github.com/user-attachments/assets/1f4c3dd4-fe4e-48a7-af2c-8179a1233ced)
 
